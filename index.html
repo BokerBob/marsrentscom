@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MarsRents.com – Premium Domain for Martian Rentals & Future Housing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MarsRents.com is ideal for businesses focused on space settlement, habitat leasing, sci-fi real estate simulations, or virtual Martian living experiences." />
+  <meta name="keywords" content="mars rents, martian homes, space housing, mars accommodation, futuristic real estate, domain for sale" />
+  <meta name="robots" content="index, follow" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #666;
+      background: #000;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background: #000;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .globe-wrapper {
+      width: 260px;
+      height: 260px;
+      margin: 0 auto 2rem;
+      perspective: 1000px;
+    }
+
+    .globe {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: spin 25s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotateX(10deg) rotateZ(23.5deg) rotateY(0deg); }
+      to   { transform: rotateX(10deg) rotateZ(23.5deg) rotateY(360deg); }
+    }
+
+    .latitude, .meridian {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-sizing: border-box;
+      transform-style: preserve-3d;
+    }
+
+    .latitude {
+      border: 2px solid #007bff;
+      opacity: 0.5;
+      transform: rotateX(var(--angle));
+    }
+
+    .meridian {
+      border: 1px solid #007bff;
+      opacity: 0.2;
+      transform: rotateY(var(--angle));
+      background: linear-gradient(to top, transparent, #e77d11, transparent);
+    }
+
+    .contact-button {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact-button:hover {
+      background: #005ec4;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MarsRents.com</h1>
+    <p class="tagline">Premium domain for Martian rentals, space housing, and exploration platforms.</p>
+
+    <div class="globe-wrapper" aria-label="Rotating globe grid">
+      <div class="globe">
+        <div class="latitude" style="--angle: 90deg;"></div>
+
+        <div class="meridian" style="--angle: 0deg;"></div>
+        <div class="meridian" style="--angle: 40deg;"></div>
+        <div class="meridian" style="--angle: 80deg;"></div>
+        <div class="meridian" style="--angle: 120deg;"></div>
+        <div class="meridian" style="--angle: 160deg;"></div>
+      </div>
+    </div>
+
+    <a class="contact-button" href="https://sedo.com/search/details/?domain=marsrents.com">
+      View / Buy on Sedo
+    </a>
+
+    <footer>&copy; 2025 MarsRents.com — All rights reserved.</footer>
+  </div>
+</body>
+</html>
